@@ -46,15 +46,18 @@ ul {
 .bg-section {
   background-color: #fafafa;
 }
-
+.main-sec {
+  margin-top: 100px;
+}
 .main-tittle {
-  margin: 100px auto 80px;
-  padding: 40px;
   text-align: center;
+  padding-top: 80px;
+  padding-bottom: 24px;
   p {
     color: $secondry-color;
     font-size: 18px;
     line-height: 21.6px;
+    font-weight: 500;
   }
   h2 {
     font-size: 40px;
@@ -99,6 +102,7 @@ ul {
   }
 }
 .card {
+  border: none;
   &:hover {
     box-shadow: $shadow;
   }
@@ -617,10 +621,11 @@ header {
 //~~~~~~~~~~HOME~~~~~~~~~~~~~~~~~~~
 .home {
   margin-top: 80px;
+  margin-bottom: 99px;
   .home-img {
     .experince {
       right: 0px;
-      bottom: 0px;
+      bottom: -36px;
       padding: 10px;
       border-radius: 21px;
       &::after {
@@ -643,20 +648,27 @@ header {
     }
   }
   .content {
-    padding-left: 54px;
+    padding-left: 32px;
   }
   .info {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
     h2 {
       font: {
         size: 40px;
         weight: bold;
       }
       line-height: 56px;
+      color: #333333;
+    }
+    span {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21.6px;
+      color: $secondry-color;
     }
     p {
       font-size: 24px;
-      line-height: 42px;
+      line-height: 38px;
       margin-bottom: 2rem;
     }
     .home-btn {
@@ -672,7 +684,7 @@ header {
   .home-img {
     height: 100% !important;
     img {
-      height: 94% !important;
+      height: 434px !important;
       object-fit: cover;
       border-radius: 20px;
     }
@@ -693,6 +705,7 @@ header {
   .home {
     .info {
       text-align: center;
+      margin-bottom: 50px;
       h2 {
         font-size: 32px !important;
         font-weight: bold;
@@ -1097,5 +1110,17 @@ footer {
         }
       }
     }
+  }
+}
+
+.btn-recipe-book {
+  background-color: $secondry-color;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  transition: all 0.7s;
+  &:hover {
+    background-color: $secondry-color;
+    color: white;
   }
 }

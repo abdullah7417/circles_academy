@@ -54,15 +54,20 @@ ul {
   background-color: #fafafa;
 }
 
+.main-sec {
+  margin-top: 100px;
+}
+
 .main-tittle {
-  margin: 100px auto 80px;
-  padding: 40px;
   text-align: center;
+  padding-top: 80px;
+  padding-bottom: 24px;
 }
 .main-tittle p {
   color: #29c1e2;
   font-size: 18px;
   line-height: 21.6px;
+  font-weight: 500;
 }
 .main-tittle h2 {
   font-size: 40px;
@@ -106,6 +111,9 @@ ul {
   color: #fff;
 }
 
+.card, .books, .courses {
+  border: none;
+}
 .card:hover, .books:hover, .courses:hover {
   box-shadow: rgba(145, 158, 171, 0.2) 0px 2px 4px -1px, rgba(145, 158, 171, 0.14) 0px 4px 5px 0px, rgba(145, 158, 171, 0.12) 0px 1px 10px 0px;
 }
@@ -596,10 +604,11 @@ header .navbar.scrolled .nav-link:hover {
 }
 .home {
   margin-top: 80px;
+  margin-bottom: 99px;
 }
 .home .home-img .experince {
   right: 0px;
-  bottom: 0px;
+  bottom: -36px;
   padding: 10px;
   border-radius: 21px;
 }
@@ -621,19 +630,26 @@ header .navbar.scrolled .nav-link:hover {
   margin-bottom: 0;
 }
 .home .content {
-  padding-left: 54px;
+  padding-left: 32px;
 }
 .home .info {
-  margin-bottom: 2rem;
+  margin-bottom: 0;
 }
 .home .info h2 {
   font-size: 40px;
   font-weight: bold;
   line-height: 56px;
+  color: #333333;
+}
+.home .info span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.6px;
+  color: #29c1e2;
 }
 .home .info p {
   font-size: 24px;
-  line-height: 42px;
+  line-height: 38px;
   margin-bottom: 2rem;
 }
 .home .info .home-btn {
@@ -649,7 +665,7 @@ header .navbar.scrolled .nav-link:hover {
     height: 100% !important;
   }
   .home-img img {
-    height: 94% !important;
+    height: 434px !important;
     -o-object-fit: cover;
        object-fit: cover;
     border-radius: 20px;
@@ -668,6 +684,7 @@ header .navbar.scrolled .nav-link:hover {
   }
   .home .info {
     text-align: center;
+    margin-bottom: 50px;
   }
   .home .info h2 {
     font-size: 32px !important;
@@ -986,4 +1003,16 @@ footer .social a .fa-instagram:hover {
 }
 footer .social a .fa-youtube:hover {
   color: #ff0000;
+}
+
+.btn-recipe-book {
+  background-color: #29c1e2;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  transition: all 0.7s;
+}
+.btn-recipe-book:hover {
+  background-color: #29c1e2;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

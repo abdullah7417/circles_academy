@@ -1,0 +1,23 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+<ns0:g clip-path="url(#clip0_89_17072)">
+<ns0:path d="M1.25 20H38.75Z" fill="url(#paint0_linear_89_17072)" />
+<ns0:path d="M1.25 20H38.75" stroke="url(#paint1_linear_89_17072)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3" />
+<ns0:path d="M20 1.25V38.75Z" fill="url(#paint2_linear_89_17072)" />
+<ns0:path d="M20 1.25V38.75" stroke="#8CC540" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3" />
+<ns0:path d="M20 1.25V38.75" stroke="black" stroke-opacity="0.2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3" />
+<ns0:path d="M20 1.25V38.75" stroke="url(#paint3_linear_89_17072)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3" />
+</ns0:g>
+<ns0:defs>
+<ns0:linearGradient id="paint0_linear_89_17072" x1="18.5" y1="20.0733" x2="15.0807" y2="15.9573" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#8cc540" /><stop offset="100%" stop-color="#8cc540" stop-opacity="0" /></ns0:linearGradient>
+<ns0:linearGradient id="paint1_linear_89_17072" x1="29.5943" y1="18.9758" x2="29.0204" y2="24.1064" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#8cc540" /><stop offset="100%" stop-color="#8cc540" stop-opacity="0" /></ns0:linearGradient>
+<ns0:linearGradient id="paint2_linear_89_17072" x1="20.46" y1="4" x2="20.2367" y2="3.99981" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#8cc540" /><stop offset="100%" stop-color="#8cc540" stop-opacity="0" /></ns0:linearGradient>
+<ns0:linearGradient id="paint3_linear_89_17072" x1="20.7558" y1="-37.1586" x2="19.5175" y2="-37.1507" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#8cc540" /><stop offset="100%" stop-color="#8cc540" stop-opacity="0" /></ns0:linearGradient>
+<ns0:clipPath id="clip0_89_17072">
+<ns0:rect width="40" height="40" fill="white" />
+</ns0:clipPath>
+</ns0:defs>
+</ns0:svg>

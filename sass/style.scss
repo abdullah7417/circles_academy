@@ -681,6 +681,7 @@ header {
 @media (max-width: 767px) {
   .content {
     order: -1 !important;
+    padding-left: 0 !important;
   }
   .home-img {
     img {
@@ -738,8 +739,7 @@ header {
 }
 @media (max-width: 767px) {
   .course {
-    padding-left: auto !important;
-    padding-right: auto !important;
+    padding-left: 0 !important;
     .card {
       img {
         object-fit: cover;
@@ -865,9 +865,7 @@ header {
 }
 @media (max-width: 767px) {
   .book {
-    padding-left: auto !important;
-    padding-right: auto !important;
-
+    padding-left: 0 !important;
     img {
       object-fit: cover;
     }

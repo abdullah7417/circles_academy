@@ -658,6 +658,7 @@ header .navbar.scrolled .nav-link:hover {
 @media (max-width: 767px) {
   .content {
     order: -1 !important;
+    padding-left: 0 !important;
   }
   .home-img img {
     height: 320px !important;
@@ -705,8 +706,7 @@ header .navbar.scrolled .nav-link:hover {
 }
 @media (max-width: 767px) {
   .course {
-    padding-left: auto !important;
-    padding-right: auto !important;
+    padding-left: 0 !important;
   }
   .course .card img, .course .books img, .course .courses img {
     -o-object-fit: cover;
@@ -807,8 +807,7 @@ header .navbar.scrolled .nav-link:hover {
 }
 @media (max-width: 767px) {
   .book {
-    padding-left: auto !important;
-    padding-right: auto !important;
+    padding-left: 0 !important;
   }
   .book img {
     -o-object-fit: cover;

@@ -178,3 +178,18 @@ $(document).ready(function () {
     },
   });
 });
+
+const sr = ScrollReveal({
+  origin: "top",
+  distance: "60px",
+  duration: 2500,
+  delay: 400,
+});
+
+sr.reveal(".home-img");
+sr.reveal(".home-text", { origin: "bottom" });
+sr.reveal(".cource-card", { interval: 200 });
+sr.reveal(".book-card", { interval: 200 });
+sr.reveal(".about-text", { origin: "bottom" });
+sr.reveal(".accordion-cont", { origin: "right" });
+sr.reveal(".footer");

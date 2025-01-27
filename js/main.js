@@ -67,9 +67,9 @@ var swiper2 = new Swiper(".mySwiper2", {
   spaceBetween: 0,
   effect: "fade",
   speed: 1000,
-  // autoplay: {
-  //   delay: 3000,
-  // },
+   autoplay: {
+     delay: 3000,
+   },
   loop: true,
 
   thumbs: {

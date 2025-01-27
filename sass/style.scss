@@ -119,6 +119,7 @@ ul {
 }
 .card {
   border: none;
+  transition: all 0.7s;
   &:hover {
     box-shadow: $shadow;
   }
@@ -886,6 +887,9 @@ header {
 
 //~~~~~~~~~~COURSES~~~~~~~~~~~~~~~~~~~
 .courses {
+  &:hover {
+    box-shadow: none !important;
+  }
   @extend .card;
   .price {
     bottom: 34%;
@@ -999,6 +1003,9 @@ header {
 
 //~~~~~~~~~~BOOKS~~~~~~~~~~~~~~~~~~~
 .books {
+  &:hover {
+    box-shadow: none !important;
+  }
   .book-btn {
     width: 43px;
     height: 43px;

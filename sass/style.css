@@ -132,6 +132,7 @@ ul {
 
 .card, .books, .courses {
   border: none;
+  transition: all 0.7s;
 }
 .card:hover, .books:hover, .courses:hover {
   box-shadow: rgba(145, 158, 171, 0.2) 0px 2px 4px -1px, rgba(145, 158, 171, 0.14) 0px 4px 5px 0px, rgba(145, 158, 171, 0.12) 0px 1px 10px 0px;
@@ -838,6 +839,9 @@ header .navbar a:hover {
     margin-bottom: 2rem;
   }
 }
+.courses:hover {
+  box-shadow: none !important;
+}
 .courses .price {
   bottom: 34%;
 }
@@ -925,6 +929,9 @@ header .navbar a:hover {
     font-size: 16px;
     margin-bottom: 0 !important;
   }
+}
+.books:hover {
+  box-shadow: none !important;
 }
 .books .book-btn {
   width: 43px;

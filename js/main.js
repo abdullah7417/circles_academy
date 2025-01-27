@@ -186,10 +186,11 @@ const sr = ScrollReveal({
   delay: 400,
 });
 
-sr.reveal(".home-img");
-sr.reveal(".home-text", { origin: "bottom" });
-sr.reveal(".cource-card", { interval: 200 });
-sr.reveal(".book-card", { interval: 200 });
-sr.reveal(".about-text", { origin: "bottom" });
-sr.reveal(".accordion-cont", { origin: "right" });
-sr.reveal(".footer");
+// ~~~~~~~~~~~~~~~~~ANIMATION~~~~~~~~~~~~~~~~~~~~~~~~
+sr.reveal(".home-img", { duration: 1000 });
+sr.reveal(".home-text", { origin: "bottom", duration: 1000 });
+sr.reveal(".cource-card", { interval: 200, duration: 1000, delay: 300 });
+sr.reveal(".book-card", { interval: 200, duration: 1000, delay: 300 });
+sr.reveal(".about-text", { origin: "bottom", duration: 1000 });
+sr.reveal(".accordion-cont", { origin: "right", duration: 1000, delay: 300 });
+sr.reveal("footer", { duration: 1000 });

@@ -383,19 +383,7 @@ header .navbar.scrolled .nav-link:hover {
 header .navbar a:hover {
   color: #fff;
 }
-.mob-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
-  background-color: #8cc540;
-  color: #fff;
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-  margin-left: 8px;
-  margin-bottom: 5px;
-  font-size: 16px;
-}
+
 @media (max-width: 991px) {
   nav {
     padding: 0;

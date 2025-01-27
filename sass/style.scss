@@ -358,6 +358,13 @@ header {
       color: $main-color;
     }
   }
+  .navbar a:hover {
+    color: #fff;
+  }
+  .mob-icon,
+  .cart-icon {
+    font-size: 18px;
+  }
 }
 @media (max-width: 991px) {
   nav {

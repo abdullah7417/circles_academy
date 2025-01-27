@@ -352,6 +352,13 @@ header .navbar.scrolled .nav-link {
 header .navbar.scrolled .nav-link:hover {
   color: #8cc540;
 }
+header .navbar a:hover {
+  color: #fff;
+}
+header .mob-icon,
+header .cart-icon {
+  font-size: 18px;
+}
 
 @media (max-width: 991px) {
   nav {

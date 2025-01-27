@@ -2,20 +2,27 @@
 const navLinks = document.querySelectorAll(".nav-link");
 const navbar = document.getElementById("navbar");
 const achievements = document.querySelector(".achievements");
+const nav = document.querySelector(".navbar-2");
 
 navLinks.forEach((link) => {
   link.addEventListener("click", function () {
-    navLinks.forEach((nav) => nav.classList.remove("active"));
+    navLinks.forEach((nav) => {
+      nav.classList.remove("active");
+    });
 
     this.classList.add("active");
+    navbar.classList.remove("full-height");
+    document.getElementById("navbarNav").classList.remove("show");
   });
 });
 
 window.addEventListener("scroll", () => {
   if (window.scrollY > 50) {
     navbar.classList.add("scrolled");
+    nav.classList.remove("nav-border");
   } else {
     navbar.classList.remove("scrolled");
+    nav.classList.add("nav-border");
   }
 });
 
@@ -28,6 +35,10 @@ window.addEventListener("scroll", () => {
     achievements.classList.add("py-5");
   }
 });
+
+function showNav() {
+  navbar.classList.toggle("full-height");
+}
 // ~~~~~~~~~~~~~~~~MAIN SLIDER~~~~~~~~~~~~~~~~~~~~~~~
 var swiper = new Swiper(".thumbsSwiper", {
   spaceBetween: 0,
@@ -56,9 +67,9 @@ var swiper2 = new Swiper(".mySwiper2", {
   spaceBetween: 0,
   effect: "fade",
   speed: 1000,
-  autoplay: {
-    delay: 3000,
-  },
+  // autoplay: {
+  //   delay: 3000,
+  // },
   loop: true,
 
   thumbs: {

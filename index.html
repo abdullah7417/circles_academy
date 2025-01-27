@@ -30,7 +30,7 @@
 
 
 
-  <body class="position-relative">
+  <body class="position-relative"> 
      <!-- ~~~~~~~~~~CALL CENTER BTN~~~~~~~~~~~~~~~~~~~ -->
       <div class="expandable-btn position-fixed">
           
@@ -51,22 +51,33 @@
     <!-- ~~~~~~~~~~HEADER~~~~~~~~~~~~~~~~~~~ -->
     <header class="position-relative" >
       <nav id="navbar"  class="navbar navbar-expand-lg z-3  position-fixed top-0 w-100">
-        <div class="container">
+        <div class="container  navbar-2">
           <a class="navbar-brand" aria-label=" logo" href="#home"
             ><img src="assets/Frame.png" alt="Circles-logo"
           /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div  class="collapse navbar-collapse" id="navbarNav">
+            
+          <div class="d-flex align-items-center justify-content-center">
+            <li class="list-unstyled">
+              <a class=" mob-icon " aria-label=" cart-btn" href="#">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+            </li>
+         
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              onclick="showNav()"
+              
+            >
+              <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+            </button>
+          </div>
+          <div  class="collapse navbar-collapse nav-links" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a class="nav-link active" aria-label=" home-page" href="#home">Home</a>
@@ -94,11 +105,9 @@
                 <a class="nav-link" aria-label=" contact-page" href="#contact">Contact Us</a>
               </li>
             </ul>
-          </div>
 
-          <div class="collapse navbar-collapse nav-btns" id="navbarNav">
-            <ul class="navbar-nav nav-buttons d-flex align-items-center">
-              <li class="nav-item">
+            <ul class="navbar-nav nav-buttons nav-btns d-flex align-items-center">
+              <li class="nav-item ">
                 <a class="cart-icon" aria-label=" cart-btn" href="#">
                   <i class="fa-solid fa-cart-shopping"></i>
                 </a>
@@ -125,6 +134,40 @@
               </li>
             </ul>
           </div>
+
+          <!-- <div class="collapse navbar-collapse nav-btns" id="navbarNav">
+            <ul class="navbar-nav nav-buttons nav-btns d-flex align-items-center">
+              <li class="nav-item ">
+                <a class="cart-icon" aria-label=" cart-btn" href="#">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="login-btn text-decoration-none" aria-label="login-btn" href="#">
+                  <i class="fa-solid fa-lock"></i>
+                  <p>login</p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="register-btn text-decoration-none" aria-label="personal info" href="#">
+                  <i class="fa-solid fa-user"></i>
+                  <p>Register</p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" aria-label=" change language to Arabic">
+                  <img src="assets/flag.png" class="lang-btn" alt="lang-btn" />
+                </a>
+              </li>
+            </ul>
+          </div> -->
+             
+          
+
+         
         </div>
       </nav>
     <!-- ~~~~~~~~~~MAIN SLIDER~~~~~~~~~~~~~~~~~~~ -->

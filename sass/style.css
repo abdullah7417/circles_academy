@@ -312,6 +312,7 @@ header .navbar .navbar-toggler:focus {
 header .navbar .nav-btns .cart-icon {
   width: 40px;
   height: 40px;
+  font-size: 16px;
 }
 header .navbar .nav-btns .login-btn {
   padding: 10px;
@@ -355,10 +356,6 @@ header .navbar.scrolled .nav-link:hover {
 header .navbar a:hover {
   color: #fff;
 }
-header .mob-icon,
-header .cart-icon {
-  font-size: 17px;
-}
 
 @media (max-width: 991px) {
   nav {
@@ -375,17 +372,17 @@ header .cart-icon {
     display: none !important;
   }
   .mob-icon {
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
     border-radius: 10px;
     background-color: #8cc540;
     color: #fff;
     display: flex !important;
     align-items: center;
     justify-content: center;
-    height: 48px;
     margin-left: 8px;
     margin-bottom: 5px;
+    font-size: 16px;
   }
 }
 @media (min-width: 992px) {

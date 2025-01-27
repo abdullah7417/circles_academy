@@ -311,6 +311,7 @@ header {
       .cart-icon {
         width: 40px;
         height: 40px;
+        font-size: 16px;
         @extend .btns;
       }
       .login-btn {
@@ -361,10 +362,6 @@ header {
   .navbar a:hover {
     color: #fff;
   }
-  .mob-icon,
-  .cart-icon {
-    font-size: 17px;
-  }
 }
 @media (max-width: 991px) {
   nav {
@@ -381,17 +378,17 @@ header {
     display: none !important;
   }
   .mob-icon {
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
     border-radius: 10px;
     background-color: $main-color;
     color: #fff;
     display: flex !important;
     align-items: center;
     justify-content: center;
-    height: 48px;
     margin-left: 8px;
     margin-bottom: 5px;
+    font-size: 16px;
   }
 }
 @media (min-width: 992px) {

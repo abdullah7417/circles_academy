@@ -51,7 +51,9 @@ ul {
 .navbar.full-height {
   min-height: 100vh;
   background-color: white;
-  box-shadow: rgba(145, 158, 171, 0.2) 0px 2px 4px -1px, rgba(145, 158, 171, 0.14) 0px 4px 5px 0px, rgba(145, 158, 171, 0.12) 0px 1px 10px 0px;
+  box-shadow: rgba(145, 158, 171, 0.2) 0px 2px 4px -1px,
+    rgba(145, 158, 171, 0.14) 0px 4px 5px 0px,
+    rgba(145, 158, 171, 0.12) 0px 1px 10px 0px;
   transition: background-color 0.7s ease;
 }
 
@@ -110,7 +112,10 @@ ul {
     line-height: 40px;
   }
 }
-.btns, header .navbar .nav-btns .register-btn, header .navbar .nav-btns .login-btn, header .navbar .nav-btns .cart-icon {
+.btns,
+header .navbar .nav-btns .register-btn,
+header .navbar .nav-btns .login-btn,
+header .navbar .nav-btns .cart-icon {
   border-radius: 10px;
   background-color: #29c1e2;
   color: #fff;
@@ -132,14 +137,22 @@ ul {
   color: #fff;
 }
 
-.card, .books, .courses {
+.card,
+.books,
+.courses {
   border: none;
   transition: all 0.7s;
 }
-.card:hover, .books:hover, .courses:hover {
-  box-shadow: rgba(145, 158, 171, 0.2) 0px 2px 4px -1px, rgba(145, 158, 171, 0.14) 0px 4px 5px 0px, rgba(145, 158, 171, 0.12) 0px 1px 10px 0px;
+.card:hover,
+.books:hover,
+.courses:hover {
+  box-shadow: rgba(145, 158, 171, 0.2) 0px 2px 4px -1px,
+    rgba(145, 158, 171, 0.14) 0px 4px 5px 0px,
+    rgba(145, 158, 171, 0.12) 0px 1px 10px 0px;
 }
-.card .label, .books .label, .courses .label {
+.card .label,
+.books .label,
+.courses .label {
   padding: 10px 14px;
   background-color: #29c1e2;
   color: white;
@@ -147,25 +160,33 @@ ul {
   top: 25px;
   left: 0;
 }
-.card .price, .books .price, .courses .price {
+.card .price,
+.books .price,
+.courses .price {
   bottom: 28%;
   width: 100%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
   text-align: end;
 }
-.card .price span, .books .price span, .courses .price span {
+.card .price span,
+.books .price span,
+.courses .price span {
   font-size: 22px;
   font-weight: bold;
   color: #fff;
 }
-.card .card-img, .books .card-img, .courses .card-img {
+.card .card-img,
+.books .card-img,
+.courses .card-img {
   height: 240.57px;
 }
 
-.swiper-btn, .instractor .swiper-btns .swiper-button-prev-ins,
+.swiper-btn,
+.instractor .swiper-btns .swiper-button-prev-ins,
 .instractor .swiper-btns .swiper-button-next-ins,
 .graduates .swiper-btns .swiper-button-prev-ins,
-.graduates .swiper-btns .swiper-button-next-ins, .instractor .swiper-btns .swiper-button-prev-grad,
+.graduates .swiper-btns .swiper-button-next-ins,
+.instractor .swiper-btns .swiper-button-prev-grad,
 .instractor .swiper-btns .swiper-button-next-grad,
 .graduates .swiper-btns .swiper-button-prev-grad,
 .graduates .swiper-btns .swiper-button-next-grad {
@@ -182,20 +203,24 @@ ul {
   cursor: pointer;
   transition: all 0.5s ease;
 }
-.swiper-btn:hover, .instractor .swiper-btns .swiper-button-prev-ins:hover,
+.swiper-btn:hover,
+.instractor .swiper-btns .swiper-button-prev-ins:hover,
 .instractor .swiper-btns .swiper-button-next-ins:hover,
 .graduates .swiper-btns .swiper-button-prev-ins:hover,
-.graduates .swiper-btns .swiper-button-next-ins:hover, .instractor .swiper-btns .swiper-button-prev-grad:hover,
+.graduates .swiper-btns .swiper-button-next-ins:hover,
+.instractor .swiper-btns .swiper-button-prev-grad:hover,
 .instractor .swiper-btns .swiper-button-next-grad:hover,
 .graduates .swiper-btns .swiper-button-prev-grad:hover,
 .graduates .swiper-btns .swiper-button-next-grad:hover {
   color: #29c1e2;
   transform: scale(1.1);
 }
-.swiper-btn i, .instractor .swiper-btns .swiper-button-prev-ins i,
+.swiper-btn i,
+.instractor .swiper-btns .swiper-button-prev-ins i,
 .instractor .swiper-btns .swiper-button-next-ins i,
 .graduates .swiper-btns .swiper-button-prev-ins i,
-.graduates .swiper-btns .swiper-button-next-ins i, .instractor .swiper-btns .swiper-button-prev-grad i,
+.graduates .swiper-btns .swiper-button-next-ins i,
+.instractor .swiper-btns .swiper-button-prev-grad i,
 .instractor .swiper-btns .swiper-button-next-grad i,
 .graduates .swiper-btns .swiper-button-prev-grad i,
 .graduates .swiper-btns .swiper-button-next-grad i {
@@ -350,7 +375,9 @@ header .navbar a:hover {
 }
 header .navbar.scrolled {
   background-color: white;
-  box-shadow: rgba(145, 158, 171, 0.2) 0px 2px 4px -1px, rgba(145, 158, 171, 0.14) 0px 4px 5px 0px, rgba(145, 158, 171, 0.12) 0px 1px 10px 0px;
+  box-shadow: rgba(145, 158, 171, 0.2) 0px 2px 4px -1px,
+    rgba(145, 158, 171, 0.14) 0px 4px 5px 0px,
+    rgba(145, 158, 171, 0.12) 0px 1px 10px 0px;
   transition: background-color 0.7s ease;
 }
 header .navbar.scrolled .nav-link {
@@ -422,7 +449,7 @@ header .navbar a:hover {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .newSlider .swiper {
@@ -460,15 +487,15 @@ header .navbar a:hover {
   text-align: start;
 }
 
-.newSlider .mySwiper .swiper-slide:nth-child(n+0) {
+.newSlider .mySwiper .swiper-slide:nth-child(n + 0) {
   background: rgba(0, 0, 0, 0.5);
 }
 
-.newSlider .mySwiper .swiper-slide:nth-child(2n+0) {
+.newSlider .mySwiper .swiper-slide:nth-child(2n + 0) {
   background: rgba(0, 0, 0, 0.4);
 }
 
-.newSlider .mySwiper .swiper-slide:nth-child(3n+0) {
+.newSlider .mySwiper .swiper-slide:nth-child(3n + 0) {
   background: rgba(0, 0, 0, 0.3);
 }
 
@@ -483,7 +510,7 @@ header .navbar a:hover {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 @media (max-width: 767px) {
@@ -820,7 +847,7 @@ header .navbar a:hover {
   .home-img img {
     height: 434px !important;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-radius: 20px;
   }
 }
@@ -836,7 +863,7 @@ header .navbar a:hover {
   .home-img img {
     height: 320px !important;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-radius: 20px;
   }
   .home .info {
@@ -877,7 +904,9 @@ header .navbar a:hover {
 .courses .price {
   bottom: 34%;
 }
-.courses .card:hover .btn-recipe, .courses .books:hover .btn-recipe, .courses .courses:hover .btn-recipe {
+.courses .card:hover .btn-recipe,
+.courses .books:hover .btn-recipe,
+.courses .courses:hover .btn-recipe {
   color: #fff;
   background-color: #29c1e2;
 }
@@ -892,9 +921,11 @@ header .navbar a:hover {
     padding-left: 30px !important;
     padding-right: 8px;
   }
-  .card img, .books img, .courses img {
+  .card img,
+  .books img,
+  .courses img {
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 }
 .graduates .section-tittle {
@@ -969,7 +1000,9 @@ header .navbar a:hover {
 .books:hover {
   box-shadow: none !important;
 }
-.books .card:hover .book-btn, .books .books:hover .book-btn, .books .courses:hover .book-btn {
+.books .card:hover .book-btn,
+.books .books:hover .book-btn,
+.books .courses:hover .book-btn {
   color: #fff;
   background-color: #29c1e2;
 }
@@ -999,7 +1032,7 @@ header .navbar a:hover {
   }
   .book img {
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 }
 .instractor .ins {
@@ -1015,12 +1048,16 @@ header .navbar a:hover {
   left: 0;
   width: 100%;
   height: 30%;
-  background: linear-gradient(to top, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+  background: linear-gradient(
+    to top,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0)
+  );
 }
 .instractor .ins img {
   padding: 10px 10px 10px;
   -o-object-fit: contain !important;
-     object-fit: contain !important;
+  object-fit: contain !important;
 }
 .instractor .ins .text {
   top: 160px;
@@ -1139,7 +1176,11 @@ header .navbar a:hover {
   color: #000000;
 }
 .faq .accordion-button {
-  background: linear-gradient(180deg, rgba(140, 197, 64, 0.13) 0%, rgba(140, 197, 64, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(140, 197, 64, 0.13) 0%,
+    rgba(140, 197, 64, 0) 100%
+  );
 }
 .faq .accordion-button:focus {
   z-index: 3;
@@ -1147,7 +1188,11 @@ header .navbar a:hover {
   box-shadow: none;
 }
 .faq .accordion-body {
-  background: linear-gradient(180deg, rgba(140, 197, 64, 0.13) 0%, rgba(140, 197, 64, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(140, 197, 64, 0.13) 0%,
+    rgba(140, 197, 64, 0) 100%
+  );
 }
 .faq .accordion-body p {
   font-size: 24px;
@@ -1194,4 +1239,4 @@ footer .social a .fa-youtube:hover {
 .btn-recipe-book:hover {
   background-color: #29c1e2;
   color: white;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */

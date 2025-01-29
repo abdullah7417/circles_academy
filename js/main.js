@@ -47,7 +47,7 @@ const activeLink = () => {
 
   sections.forEach((section) => {
     const sectionTop = section.offsetTop;
-    if (this.scrollY >= sectionTop - 60) {
+    if (this.scrollY >= sectionTop - 100) {
       current = section.getAttribute("id");
     }
   });

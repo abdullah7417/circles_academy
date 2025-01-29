@@ -44,6 +44,10 @@ ul {
   color: #515151;
 }
 
+#logo {
+  transition: all 0.7s;
+}
+
 .active {
   color: #8cc540 !important;
 }

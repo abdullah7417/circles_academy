@@ -37,7 +37,9 @@ ul {
 .p-color {
   color: $font-color;
 }
-
+#logo {
+  transition: all 0.7s;
+}
 .active {
   color: $main-color !important;
 }

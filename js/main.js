@@ -4,6 +4,7 @@ const navbar = document.getElementById("navbar");
 const achievements = document.querySelector(".achievements");
 const nav = document.querySelector(".navbar-2");
 const navbarNav = document.querySelectorAll(".navbarNav");
+const logo = document.getElementById("logo");
 navLinks.forEach((link) => {
   link.addEventListener("click", function () {
     navLinks.forEach((nav) => {
@@ -21,8 +22,10 @@ navLinks.forEach((link) => {
 window.addEventListener("scroll", () => {
   if (window.scrollY > 50) {
     navbar.classList.add("scrolled");
+    logo.setAttribute("src", "assets/Group (1).png");
   } else {
     navbar.classList.remove("scrolled");
+    logo.setAttribute("src", "assets/Frame.png");
   }
 });
 

@@ -39,6 +39,27 @@ window.addEventListener("scroll", () => {
 function showNav() {
   navbar.classList.toggle("full-height");
 }
+//~~~~~~~~~~~~~~~ SCROLL SECTIONS ACTIVE LINK ~~~~~~~~~~~~~~~
+const activeLink = () => {
+  const sections = document.querySelectorAll("section");
+
+  let current = "home";
+
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    if (this.scrollY >= sectionTop - 60) {
+      current = section.getAttribute("id");
+    }
+  });
+
+  navLinks.forEach((item) => {
+    item.classList.remove("active");
+    if (item.href.includes(current)) {
+      item.classList.add("active");
+    }
+  });
+};
+window.addEventListener("scroll", activeLink);
 // ~~~~~~~~~~~~~~~~MAIN SLIDER~~~~~~~~~~~~~~~~~~~~~~~
 var swiper = new Swiper(".thumbsSwiper", {
   spaceBetween: 0,

@@ -3,7 +3,7 @@ const navLinks = document.querySelectorAll(".nav-link");
 const navbar = document.getElementById("navbar");
 const achievements = document.querySelector(".achievements");
 const nav = document.querySelector(".navbar-2");
-
+const navbarNav = document.querySelectorAll(".navbarNav");
 navLinks.forEach((link) => {
   link.addEventListener("click", function () {
     navLinks.forEach((nav) => {
@@ -12,7 +12,9 @@ navLinks.forEach((link) => {
 
     this.classList.add("active");
     navbar.classList.remove("full-height");
-    document.getElementById("navbarNav").classList.remove("show");
+    navbarNav.forEach((navbar) => {
+      navbar.classList.remove("show");
+    });
   });
 });
 
@@ -177,6 +179,8 @@ $(document).ready(function () {
   });
 });
 
+//~~~~~~~~~~~~~~~~~ANIMATION~~~~~~~~~~~~~~~~~~~~~~~~
+
 const sr = ScrollReveal({
   origin: "top",
   distance: "60px",
@@ -184,7 +188,6 @@ const sr = ScrollReveal({
   delay: 400,
 });
 
-// ~~~~~~~~~~~~~~~~~ANIMATION~~~~~~~~~~~~~~~~~~~~~~~~
 sr.reveal(".home-img", { duration: 1000 });
 sr.reveal(".home-text", { origin: "bottom", duration: 1000 });
 sr.reveal(".cource-card", { interval: 200, duration: 1000, delay: 300 });

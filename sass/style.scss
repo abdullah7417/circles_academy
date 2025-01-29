@@ -530,16 +530,6 @@ header {
     justify-content: center;
   }
 }
-// @media (max-width: 540px) {
-//   .newSlider .mySwiper .swiper-slide .slide-details .btn {
-//     width: 100% !important;
-//   }
-// }
-// .newSlider .mySwiper .swiper-slide-thumb-active .slide-details {
-//   display: block;
-//   padding-inline: 100px;
-//   line-height: 2;
-// }
 
 .newSlider .mySwiper .swiper-slide .slide-name img {
   width: 50px;
@@ -637,14 +627,6 @@ header {
     margin-bottom: 1.5rem !important;
   }
 }
-// @media (min-width: 768px) and (max-width: 1199px) {
-//   .newSlider .mySwiper .swiper-slide .slide-details h3 {
-//     text-shadow: none;
-//     font-weight: 500;
-//     font-size: 24px;
-//     line-height: 28px;
-//   }
-// }
 
 .newSlider .mySwiper .swiper-slide .slide-details h5 {
   color: $main-color;
@@ -1339,14 +1321,3 @@ footer {
     color: white;
   }
 }
-
-// @media (min-width: 992px) {
-//   .newSlider .mySwiper .swiper-slide .slide-details .btn {
-//     width: 50%;
-//     background: #29c1e2;
-//     border-radius: 10px;
-//     color: #fff;
-//     transition: all 0.5s ease-in-out;
-//     padding: 15px 4px;
-//   }
-// }

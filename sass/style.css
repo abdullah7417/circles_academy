@@ -148,7 +148,7 @@ ul {
   left: 0;
 }
 .card .price, .books .price, .courses .price {
-  bottom: 28%;
+  bottom: 30%;
   width: 100%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
   text-align: end;
@@ -875,7 +875,7 @@ header .navbar a:hover {
   box-shadow: none !important;
 }
 .courses .price {
-  bottom: 34%;
+  bottom: 35%;
 }
 .courses .card:hover .btn-recipe, .courses .books:hover .btn-recipe, .courses .courses:hover .btn-recipe {
   color: #fff;

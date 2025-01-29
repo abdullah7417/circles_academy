@@ -4,13 +4,15 @@ html {
 
 body {
   overflow-x: hidden;
+  font-family: "Inter", serif;
+  padding: 0;
 }
 
 * {
+  max-width: 100%;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Inter", serif;
 }
 *::-moz-selection {
   color: black;
@@ -516,6 +518,11 @@ header .navbar a:hover {
   width: 100%;
 }
 
+@media (max-width: 767px) {
+  .newSlider .mySwiper .swiper-slide-thumb-active .slide-details {
+    justify-content: center;
+  }
+}
 .newSlider .mySwiper .swiper-slide .slide-name img {
   width: 50px;
   height: auto;
@@ -623,6 +630,25 @@ header .navbar a:hover {
   background: #8cc540;
 }
 
+@media (min-width: 540px) and (max-width: 767px) {
+  .newSlider .mySwiper .swiper-slide .slide-details .btn {
+    width: 74% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .newSlider .mySwiper .swiper-slide .slide-details .btn {
+    width: 100% !important;
+    padding: 12px 0;
+  }
+}
+@media (min-width: 992px) {
+  .newSlider .mySwiper .swiper-slide .slide-details .btn {
+    width: 60% !important;
+    padding: 15px 4px;
+  }
+}
 @media (max-width: 767px) {
   .newSlider .mySwiper .swiper-slide {
     width: 50%;
@@ -757,7 +783,7 @@ header .navbar a:hover {
   margin-bottom: 0;
 }
 .home .content {
-  padding-left: 32px;
+  padding-left: 44px;
 }
 .home .info {
   margin-bottom: 0;
@@ -803,6 +829,10 @@ header .navbar a:hover {
     order: -1 !important;
     padding-left: 0 !important;
   }
+  .home-img {
+    padding-left: 30px !important;
+    padding-right: 8px;
+  }
   .home-img img {
     height: 320px !important;
     -o-object-fit: cover;
@@ -810,6 +840,8 @@ header .navbar a:hover {
     border-radius: 20px;
   }
   .home .info {
+    padding-left: 30px !important;
+    padding-right: 8px;
     text-align: center;
     margin-bottom: 50px;
   }
@@ -845,16 +877,20 @@ header .navbar a:hover {
 .courses .price {
   bottom: 34%;
 }
+.courses .card:hover .btn-recipe, .courses .books:hover .btn-recipe, .courses .courses:hover .btn-recipe {
+  color: #fff;
+  background-color: #29c1e2;
+}
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .course {
-    padding-left: 5px !important;
+    padding-left: 1.5rem !important;
   }
 }
 @media (max-width: 767px) {
   .course {
     padding-left: 30px !important;
-    padding-right: 30px !important;
+    padding-right: 8px;
   }
   .card img, .books img, .courses img {
     -o-object-fit: cover;
@@ -933,6 +969,10 @@ header .navbar a:hover {
 .books:hover {
   box-shadow: none !important;
 }
+.books .card:hover .book-btn, .books .books:hover .book-btn, .books .courses:hover .book-btn {
+  color: #fff;
+  background-color: #29c1e2;
+}
 .books .book-btn {
   width: 43px;
   height: 43px;
@@ -942,10 +982,6 @@ header .navbar a:hover {
   color: #29c1e2;
   transition: all 0.7s;
 }
-.books .book-btn:hover {
-  color: #fff;
-  background-color: #29c1e2;
-}
 .books .book-btn i {
   transform: translate(-50%, -50%);
   font-size: 23;
@@ -953,13 +989,13 @@ header .navbar a:hover {
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .book {
-    padding-left: 5px !important;
+    padding-left: 1.5rem !important;
   }
 }
 @media (max-width: 767px) {
   .book {
     padding-left: 30px !important;
-    padding-right: 30px !important;
+    padding-right: 8px;
   }
   .book img {
     -o-object-fit: cover;
@@ -1078,6 +1114,9 @@ header .navbar a:hover {
   line-height: 25px;
 }
 
+.faq {
+  max-width: 100%;
+}
 .faq .section-tittle {
   padding: 0;
   margin-top: 40px;

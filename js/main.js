@@ -19,10 +19,8 @@ navLinks.forEach((link) => {
 window.addEventListener("scroll", () => {
   if (window.scrollY > 50) {
     navbar.classList.add("scrolled");
-    nav.classList.remove("nav-border");
   } else {
     navbar.classList.remove("scrolled");
-    nav.classList.add("nav-border");
   }
 });
 
@@ -67,9 +65,9 @@ var swiper2 = new Swiper(".mySwiper2", {
   spaceBetween: 0,
   effect: "fade",
   speed: 1000,
-  autoplay: {
-    delay: 3000,
-  },
+  // autoplay: {
+  //   delay: 3000,
+  // },
   loop: true,
 
   thumbs: {
@@ -187,10 +185,10 @@ const sr = ScrollReveal({
 });
 
 // ~~~~~~~~~~~~~~~~~ANIMATION~~~~~~~~~~~~~~~~~~~~~~~~
-sr.reveal(".home-img", { duration: 1000 });
-sr.reveal(".home-text", { origin: "bottom", duration: 1000 });
-sr.reveal(".cource-card", { interval: 200, duration: 1000, delay: 300 });
-sr.reveal(".book-card", { interval: 200, duration: 1000, delay: 300 });
-sr.reveal(".about-text", { origin: "bottom", duration: 1000 });
-sr.reveal(".accordion-cont", { origin: "right", duration: 1000, delay: 300 });
-sr.reveal("footer", { duration: 1000 });
+// sr.reveal(".home-img", { duration: 1000 });
+// sr.reveal(".home-text", { origin: "bottom", duration: 1000 });
+// sr.reveal(".cource-card", { interval: 200, duration: 1000, delay: 300 });
+// sr.reveal(".book-card", { interval: 200, duration: 1000, delay: 300 });
+// sr.reveal(".about-text", { origin: "bottom", duration: 1000 });
+// sr.reveal(".accordion-cont", { origin: "right", duration: 1000, delay: 300 });
+// sr.reveal("footer", { duration: 1000 });

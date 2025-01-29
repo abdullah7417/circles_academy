@@ -6,17 +6,21 @@ html {
 }
 body {
   overflow-x: hidden;
+  font-family: "Inter", serif;
+  padding: 0;
 }
 * {
+  max-width: 100%;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Inter", serif;
+
   &::selection {
     color: black;
     background-color: $secondry-color;
   }
 }
+
 a {
   text-decoration: none;
 }
@@ -117,6 +121,7 @@ ul {
     color: #fff;
   }
 }
+
 .card {
   border: none;
   transition: all 0.7s;
@@ -520,6 +525,16 @@ header {
   width: 100%;
 }
 
+@media (max-width: 767px) {
+  .newSlider .mySwiper .swiper-slide-thumb-active .slide-details {
+    justify-content: center;
+  }
+}
+// @media (max-width: 540px) {
+//   .newSlider .mySwiper .swiper-slide .slide-details .btn {
+//     width: 100% !important;
+//   }
+// }
 // .newSlider .mySwiper .swiper-slide-thumb-active .slide-details {
 //   display: block;
 //   padding-inline: 100px;
@@ -649,6 +664,25 @@ header {
 
 .newSlider .mySwiper .swiper-slide .slide-details .btn:hover {
   background: #8cc540;
+}
+@media (min-width: 540px) and (max-width: 767px) {
+  .newSlider .mySwiper .swiper-slide .slide-details .btn {
+    width: 74% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .newSlider .mySwiper .swiper-slide .slide-details .btn {
+    width: 100% !important;
+    padding: 12px 0;
+  }
+}
+@media (min-width: 992px) {
+  .newSlider .mySwiper .swiper-slide .slide-details .btn {
+    width: 60% !important;
+    padding: 15px 4px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -795,7 +829,7 @@ header {
     }
   }
   .content {
-    padding-left: 32px;
+    padding-left: 44px;
   }
   .info {
     margin-bottom: 0;
@@ -843,6 +877,8 @@ header {
     padding-left: 0 !important;
   }
   .home-img {
+    padding-left: 30px !important;
+    padding-right: 8px;
     img {
       height: 320px !important;
       object-fit: cover;
@@ -851,6 +887,8 @@ header {
   }
   .home {
     .info {
+      padding-left: 30px !important;
+      padding-right: 8px;
       text-align: center;
       margin-bottom: 50px;
       h2 {
@@ -894,16 +932,24 @@ header {
   .price {
     bottom: 34%;
   }
+  .card {
+    &:hover {
+      .btn-recipe {
+        color: #fff;
+        background-color: $secondry-color;
+      }
+    }
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .course {
-    padding-left: 5px !important;
+    padding-left: 1.5rem !important;
   }
 }
 @media (max-width: 767px) {
   .course {
     padding-left: 30px !important;
-    padding-right: 30px !important;
+    padding-right: 8px;
   }
   .card {
     img {
@@ -1006,6 +1052,14 @@ header {
   &:hover {
     box-shadow: none !important;
   }
+  .card {
+    &:hover {
+      .book-btn {
+        color: #fff;
+        background-color: $secondry-color;
+      }
+    }
+  }
   .book-btn {
     width: 43px;
     height: 43px;
@@ -1014,10 +1068,10 @@ header {
     background-color: #fff;
     color: $secondry-color;
     transition: all 0.7s;
-    &:hover {
-      color: #fff;
-      background-color: $secondry-color;
-    }
+    // &:hover {
+    //   color: #fff;
+    //   background-color: $secondry-color;
+    // }
     i {
       transform: translate(-50%, -50%);
       font-size: 23;
@@ -1027,13 +1081,13 @@ header {
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .book {
-    padding-left: 5px !important;
+    padding-left: 1.5rem !important;
   }
 }
 @media (max-width: 767px) {
   .book {
     padding-left: 30px !important;
-    padding-right: 30px !important;
+    padding-right: 8px;
     img {
       object-fit: cover;
     }
@@ -1177,6 +1231,7 @@ header {
 }
 //~~~~~~~~~~FAQ~~~~~~~~~~~~~~~~~~~
 .faq {
+  max-width: 100%;
   .section-tittle {
     padding: 0;
     margin-top: 40px;
@@ -1284,3 +1339,14 @@ footer {
     color: white;
   }
 }
+
+// @media (min-width: 992px) {
+//   .newSlider .mySwiper .swiper-slide .slide-details .btn {
+//     width: 50%;
+//     background: #29c1e2;
+//     border-radius: 10px;
+//     color: #fff;
+//     transition: all 0.5s ease-in-out;
+//     padding: 15px 4px;
+//   }
+// }
